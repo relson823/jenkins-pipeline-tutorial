@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Run the static analysis to the code' 
                 echo 'hi'
+                echo 'helo'
             }
         }
         stage('Compile') {
